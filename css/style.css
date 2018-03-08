@@ -1,133 +1,66 @@
 @import url(http://fonts.googleapis.com/css?family=
 	Roboto:	500,100,300,700,500italic,100italic,300italic,400);
-
-@import url(http://fonts.googleapis.com/css?family=Quicksand:400,700);
-
-*{
-    margin:0;
-    padding:0;
-}
-/* Navigation and header*/
-
 body{
-    font-family: 'Quicksand';
-    font-weight: 700;
-    background-color:yellow;
+    padding-top: 15%;
+    font-family: Roboto;
+    font-size: 1.6em;
+	background-color:#4CAF50;
+	color:white;
+}
+@media (min-width: 768px) and (max-width: 992px){
+    .box{
+        height:20em;
+    }
+}
+.boxes{
+    padding-left: 10%;
+    padding-right: 10%;
+	align:center;
+}
+
+a{
+	color:white;
+	text-decoration:underline;
+}
+.boxLabel{
+   font-family: 'Quicksand', sans-serif; 
+   font-weight:700;
+
+}
+.name{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 5em;
+    padding-bottom: 2%;
+    font-family: 'Quicksand', sans-serif;
+}
+.intro{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 3em;
+	background-color:##8BC34A;	
+	font-family: 'Quicksand', sans-serif;
+	font-weight:300;
+
+}
+
+
+ul{
+    list-style:none;
+    margin-top:-5px;
+    padding-left:10px;
+}
+li{
+    /* font-style:italic; */
+}
+.pato{
    
-}
-
-#nav{
-
-	list-style: none;
-	background-color:black;
-	padding:1em 1em 1em 1em;
-}
-
-#nav ul a li{
-	display:inline;
-	color:white;
-	padding:1em;
-}
-
-#nav ul a li{
-	color:white;
-}
-
-#nav ul a:link{
-	text-decoration:none;
-}
-
-#nav ul li:hover {
-	background-color:#D91E18;
-}
-
-#header-main {
-	background-image: url("../snowym.jpg");	
-	background-attachment:scroll;
-	background-position:center center;
-	background-repeat:none;
-	-webkit-background-size:cover;
-	background-size: cover;
-	padding:14em 0 14em 0;
-	text-align:center;
-	color:white;
-	height:100%;
-}
-
-#header-main h1{
-	margin: 0px auto;
-	width:45%;
-	font-size:4em;
-	border-bottom:white solid 1px;
-}
-
-#header-main p{
-	margin: 0px auto;
-	width:45%;
-	font-size:2em;
+    bottom:0px;
+    text-align:right;
+	padding-right:2%;
 	font-family:'Quicksand';
-	font-weight:400;
-	padding:0 0 2em 0;
+	font-weight:300;
+	font-size:.75em;
 }
-
-/*Navigation and header stop*/
-
-/*About me start*/
-#about{
-	padding: 0 0 10% 0;
-	border-bottom:3px solid black;	
-}
-
-
-#about-main h1{
-text-align:center;
-	
-
-}
-
-#about-main img{
-	height:10em;
-	width:12em;
-	border: 1px solid;
-	border-radius: 100%;	
-	margin: 0px auto;
-	position:absolute;
-	margin-left:25%;
-	margin-top:5em;
-}
-.desc{
-	margin-left:45em;
-	position:absolute;
-	width:40%;
-	margin-top:4%;
-	line-height:200%;
-}
-/*END OF ABOUT ME*/
-
-/*BEGINNING OF EXPERIENCE*/
-#experience{
-	background-color:white;
-}
-#experience-main{
-	padding:20em 0 0 0em;
-	background-color:blue;
-}
-
-#experience-main h2{
-	
-	text-align:center;
-
-}
-.eBox1{
-	display:inline-block;
-	margin-top:5em;
-}
-
-.eBox{
-	height:10em;
-	width:10em;
-	background-color:#e87e04;
-	margin-left:10em;
-}
-
-
